@@ -1,0 +1,74 @@
+/* TodoList.css */
+
+.todo-list-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .todo-list {
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .todo-list h2 {
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .input-container input {
+    flex: 1;
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .input-container button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+  }
+  
+  .task-actions {
+    display: flex; /* Ensure buttons are flex items */
+    justify-content: space-between; /* Evenly distribute space between buttons */
+  }
+  
+  .task-actions button {
+    padding: 3px 6px;
+    color: #fff;
+    border: none;
+    background-color: #007bff;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .task-actions.button.completed{
+    background-color: green;
+  }
+  
